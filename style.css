@@ -36,3 +36,40 @@ body {
     width: 50%;
     float: left;
 }
+img {
+    border: 2px solid #f00; /* Punane raam 2px lai */
+    box-shadow: 5px 5px 5px #888888; /* 5px x 5px vari */
+}
+table th {
+    background-color: #007acc; /* Sinine taustvärv */
+    color: #fff; /* Valge teksti värv */
+    font-weight: bold; /* Paksem kiri */
+    text-align: left; /* Joondus vasakule */
+}
+table {
+    border: 2px solid #000; /* Black border with 2px width */
+}
+
+body {
+    background-color: #ccc; /* Hall taustavärv */
+}
+.column {
+    width: 50%;
+    float: left;
+}
+/* Lisa stiil nupule, millel on hover-efekt */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #007acc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover-efekt - suurenda nuppu ja tee seda veidi pöördeid */
+.button:hover {
+    transform: scale(1.1) rotate(10deg);
+}
