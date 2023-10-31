@@ -1,0 +1,38 @@
+/* Style the page title */
+h1 {
+    color: blue;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main text */
+p {
+    color: #333;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    text-align: justify;
+}
+
+/* Add a border and shadow to the image */
+img {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+/* Style the table header */
+table th {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+/* Change the background color of the entire page */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Create two columns for the page content */
+.column {
+    width: 50%;
+    float: left;
+}
